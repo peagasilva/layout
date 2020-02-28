@@ -4,6 +4,7 @@ Pod::Spec.new do |s|
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.summary = 'A simple declarative Auto Layout DSL'
   s.authors = { "Raphael Silva" => "sr.silvaraphael@gmail.com" }
+  s.homepage     = "https://github.com/peagasilva/layout"
   s.source = { :git => "https://github.com/peagasilva/Layout.git", :tag  => "v"+s.version.to_s }
   s.platforms = { :ios => "9.0", :osx => "10.10", :tvos => "9.0", :watchos => "2.0" }
   s.requires_arc = true
